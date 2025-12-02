@@ -24,22 +24,22 @@
     "fastify": "^5.6.2",
     "knex": "^3.1.0",
     "pg": "^8.16.3",
-    "zod": "^4.1.13"
+    "tsup": "^8.5.1",
+    "zod": "^4.1.13",
+    "@types/node": "^24.10.1",
+    "@types/supertest": "^6.0.3",
+    "vitest": "^4.0.15",
+    "supertest": "^7.1.4",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "@types/node": "^24.10.1",
-    "@types/supertest": "^6.0.3",
     "eslint": "^9.39.1",
     "globals": "^16.5.0",
     "jiti": "^2.6.1",
-    "sqlite3": "^5.1.7",
-    "supertest": "^7.1.4",
     "ts-node": "^10.9.2",
-    "tsup": "^8.5.1",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.47.0",
-    "vitest": "^4.0.15"
+    "typescript-eslint": "^8.47.0"
   }
 }
