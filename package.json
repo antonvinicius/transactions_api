@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "migrate:make": "npx knex migrate:make",
     "migrate:latest": "npx knex migrate:latest",
     "migrate:rollback": "npx knex migrate:rollback",
-    "test": "vitest",
+    "test": "vitest --exclude 'build/*'",
     "build": "tsup src --out-dir build",
     "start": "node dist/server.js"
   },
